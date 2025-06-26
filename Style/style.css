@@ -4,6 +4,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+
 }
 
 @font-face {
@@ -12,14 +13,31 @@
 }
 
 
-main {
-    background-color: rgb(72, 98, 243);
+body {
+    background-color: rgb(150, 164, 247);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "cs_regular";
 }
 
+h1 {
+    font-size: 50px;
+    color: rgb(1, 16, 99);
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
 h2 {
-    font-size: 15px;
+    font-size: 25px;
+    color: rgb(206, 232, 255);
+}
+
+#content {
+    background-color: rgb(58, 48, 150);
+    color: rgb(206, 232, 255);
 }
